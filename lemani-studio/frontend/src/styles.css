@@ -1,0 +1,17 @@
+:root {
+  --bg: #f3f6fb;
+  --panel: #ffffff;
+  --accent: #0ea5a4;
+  --muted: #6b7280;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:#0f172a}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:linear-gradient(90deg,white, #fbfcfd);box-shadow:0 1px 4px rgba(2,6,23,0.06)}
+.layout{display:flex;gap:12px;padding:12px}
+.left,.right{width:260px}
+.center{flex:1;background:var(--panel);border-radius:8px;padding:8px;display:flex;align-items:center;justify-content:center;min-height:520px}
+.panel{background:var(--panel);border-radius:8px;padding:10px;margin-bottom:12px;box-shadow:0 2px 6px rgba(2,6,23,0.04)}
+button.btn{padding:8px 10px;border-radius:6px;border:1px solid #e6edf2;background:white;cursor:pointer}
+.asset-item{display:flex;align-items:center;gap:8px;padding:8px;border:1px dashed #e6edf2;border-radius:6px;margin-bottom:8px;cursor:pointer}
+label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+input[type='text'], input[type='number'], select {width:100%; padding:6px;border-radius:6px;border:1px solid #e6edf2}
